@@ -1,59 +1,100 @@
 <!DOCTYPE html>
-<title>MHD website. :C </title>
-<link href="https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans" rel="stylesheet" type="text/css">
-<link href="https://fonts.google.com/specimen/Roboto"rel="stylesheet" type="text/css">
+<html lang="en">
 
-<center><h2 class="white-text">MHD</h2></center>
-<main>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/0bLEcCMVgmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-<center><h2 class="white-text">“ When we lose our principles, we invite chaos.” ...</h2></center>
-<center><h2 class="white-text">“ The concept of waiting bewilders me. ...</h2></center>
-<center><h3 class="white-text"><a class="gray-text" href="https://instagram.com/n2.qp?r=nametag" target="_blank">instagram:n2.qp</a></h3</center>
-<center><h3 class="white-text"><a class="gray-text" href="https://www.tiktok.com/@1.php" target="_blank">tiktok:1.php</a></h3</center>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>you look lonely.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="i.png">
+</head>
 
 
+<body>
 
-<style>
+    <header>
+        <h2 class="logo">MHD</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
 
-  body {background-color: black;
-  }
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="Process-signin.php" method="post">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">register</a></p>
+                </div>
+            </form>
+        </div>
 
-  .red-text {
-    color: red;
-  }
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    I agree to the terms & conditions
+                    </label>
+                </div>
+                <button type="submit" class="btn">register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
 
-  .gray-text {
-    color: gray;
-  }
-
-    .white-text {
-    color: white;
-  }
-
-  p {
-    font-size: 16px;
-    font-family: 16px;
-  }
-  
-  h3 {
-    font-family1: Roboto;
-  }
-  
-  
-  h2 {
-    font-size: 30px;
-    font-family: Tangerine;
-  }
-</style>
-
-
-<!-----------------------------------------------------------------------------------------
-  <img class="tile--img__img  js-lazyload" src="//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TRvnRlvCXYdp7Ot28jWg0wHaEK%26pid%3DApi&amp;f=1" data-src="//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TRvnRlvCXYdp7Ot28jWg0wHaEK%26pid%3DApi&amp;f=1" alt="24 Kaneki Ken Wallpaper | MagOne 2016">
--------------------------------------------------------------------------------------------
-<img class="tile--img__img  js-lazyload" src="//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.64d2EVSMm8DcSgZ_Bp4pywHaEK%26pid%3DApi&amp;f=1" data-src="//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.64d2EVSMm8DcSgZ_Bp4pywHaEK%26pid%3DApi&amp;f=1" alt="1920x1080 Ken Kaneki 2020 Digital Art 1080P Laptop Full HD ...">
--------------------------------------------------------------------------------------------
-<img style="width: 500px; height: 250px; display: block;" alt="Pin on Гики" class="detail__media__img-highres  js-detail-img  js-detail-img-high" src="//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F88%2Fe7%2F81%2F88e781f55d1889530fdeaff5523d171b.gif&amp;f=1&amp;nofb=1">
-------------------------------------------------------------------------------------------<img src="https://c.tenor.com/ER_gE4vtxLIAAAAd/shiro-glitch.gif" width="683" height="683" alt="Shiro Glitch GIF - Shiro Glitch Anime GIFs" style="max-width: 683px;">
-------------------------------------------------------------------------------------------<img src="https://c.tenor.com/OUndm-_hE0UAAAAd/mr-robot-rami-malek.gif" width="500" height="500" alt="Mr Robot Rami Malek GIF - Mr Robot Rami Malek Smoking GIFs" style="max-width: 3000px;">
------------------------------------------------------------------------------------------->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body> 
+</html>
